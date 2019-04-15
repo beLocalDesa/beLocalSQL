@@ -1,3 +1,4 @@
+/*!40000 ALTER TABLE `bl_city` DISABLE KEYS */;
 INSERT INTO bl_city VALUES(1,'Araba/Álava', 1);
 INSERT INTO bl_city VALUES(2,'Albacete', 2);
 INSERT INTO bl_city VALUES(3,'Alicante', 3);

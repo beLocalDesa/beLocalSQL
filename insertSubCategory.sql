@@ -1,3 +1,4 @@
+/*!40000 ALTER TABLE `bl_subcategory` DISABLE KEYS */;
 INSERT INTO bl_subcategory VALUES(1,1,'Amazon Prime Video',1);
 INSERT INTO bl_subcategory VALUES(2,2,'Todos los videos',2);
 INSERT INTO bl_subcategory VALUES(3,3,'Películas',3);

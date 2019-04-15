@@ -36,7 +36,6 @@ CREATE TABLE `bl_category` (
 
 LOCK TABLES `bl_category` WRITE;
 /*!40000 ALTER TABLE `bl_category` DISABLE KEYS */;
-INSERT INTO `bl_category` VALUES (1,'Amazon Prime Video',1),(2,'Todos los videos',2),(3,'Películas',3),(4,'Series',4),(5,'Amazon Music',5),(6,'Amazon Music Unlimited',6),(7,'Prime Music',7),(8,'Abrir el lector Web',8),(9,'Descargar nuestras aplicaciones',9),(10,'CDs & Vinilos',10),(17,'aaaaaaaaaaaaaa',NULL),(16,'ssssssssssss',NULL),(15,'dssdsd',NULL),(14,'prueba4',NULL),(13,'SDSDSD',NULL),(12,'prueba3',NULL),(11,'PRUEBA2',NULL),(18,'aasasasas',NULL),(19,'ddddddddddddddddd',NULL),(20,'xssddsds',NULL),(21,'dcmkdmcms',NULL),(23,'dsdsdsdd',NULL);
 /*!40000 ALTER TABLE `bl_category` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -36,7 +36,6 @@ CREATE TABLE `bl_city` (
 
 LOCK TABLES `bl_city` WRITE;
 /*!40000 ALTER TABLE `bl_city` DISABLE KEYS */;
-INSERT INTO `bl_city` VALUES (1,'Araba/Álava',1),(2,'Albacete',2),(3,'Alicante',3),(4,'Almería',4),(5,'Ávila',5),(6,'Badajoz',6),(7,'Balearic Islands',7),(8,'Barcelona',8),(9,'Burgos',9),(10,'Cáceres',10),(11,'Cádiz',11),(12,'Castellón',12),(13,'Ciudad Real',13),(14,'Córdoba',14),(15,'A Coruña',15),(16,'Cuenca',16),(17,'Girona',17),(18,'Granada',18),(19,'Guadalajara',19),(20,'Gipuzkoa',20),(21,'Huelva',21),(22,'Huesca',22),(23,'Jaén',23),(24,'León',24),(25,'Lleida',25),(26,'Lugo',26),(27,'Madrid',27),(28,'Málaga',28),(29,'Murcia',29),(30,'Navarre',30),(31,'Ourense',31),(32,'Palencia',32),(33,'Las Palmas',33),(34,'Pontevedra',34),(35,'Salamanca',35),(36,'Santa Cruz de Tenerife',36),(37,'Segovia',37),(38,'Seville',38),(39,'Soria',39),(40,'Tarragona',40),(41,'Teruel',41),(42,'Toledo',42),(43,'Valencia',43),(44,'Valladolid',44),(45,'Bizkaia',45),(46,'Zamora',46),(47,'Zaragoza',47),(48,'Ceuta',48),(49,'Melilla',49);
 /*!40000 ALTER TABLE `bl_city` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,3 +1,5 @@
+/*!40000 ALTER TABLE `bl_store` DISABLE KEYS */;
+
 INSERT INTO bl_store VALUES(1,1,1,'Inditex@email.com','Inditex', 11111111,03101, 03101,01);
 INSERT INTO bl_store VALUES(2,2,2,'H@email.com','H', 11111111,03102, 03102,02);
 INSERT INTO bl_store VALUES(3,3,3,'Benetton@email.com','Benetton', 11111111,03103, 03103,03);
