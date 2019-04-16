@@ -31,7 +31,7 @@ CREATE TABLE `bl_product` (
 	`idsubcategory`	bigint(20) DEFAULT NULL, 
 	`description` 	TEXT DEFAULT NULL,
 	`price` 	decimal(10,2) DEFAULT NULL, 
-	`stock` 	int DEFAULT NULL),
+	`stock` 	int DEFAULT NULL,
   PRIMARY KEY (`id`),
   FOREIGN KEY (`shop`) REFERENCES bl_store(id),
   FOREIGN KEY (`idcategory`) REFERENCES bl_category(id),
