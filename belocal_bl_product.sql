@@ -23,20 +23,34 @@ DROP TABLE IF EXISTS `bl_product`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `bl_product` (
-	`id` 	bigint(20) NOT NULL,
+
+	`id` 	int(11) NOT NULL,
+
 	`name` 	varchar(255) DEFAULT NULL,
-	`shop` 	bigint(20) DEFAULT NULL, 
-	`URL` 	varchar(255) DEFAULT NULL, 
-	`idcategory`	bigint(20) DEFAULT NULL, 
-	`idsubcategory`	bigint(20) DEFAULT NULL, 
+
+	`shop` 	int(11) DEFAULT NULL,
+ 
+	`URL` 	int(11) DEFAULT NULL,
+ 
+	`idcategory`	int(11) DEFAULT NULL,
+ 
+	`idsubcategory`	int(11) DEFAULT NULL,
+ 
 	`description` 	TEXT DEFAULT NULL,
-	`price` 	decimal(10,2) DEFAULT NULL, 
+
+	`price` 	decimal(10,2) DEFAULT NULL,
+ 
 	`stock` 	int DEFAULT NULL,
+
   PRIMARY KEY (`id`),
+
   FOREIGN KEY (`shop`) REFERENCES bl_store(id),
+
   FOREIGN KEY (`idcategory`) REFERENCES bl_category(id),
+
   FOREIGN KEY (`idsubcategory`) REFERENCES bl_subcategory(id)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
